@@ -55,10 +55,74 @@ input {
   outline: none;
 }
 
-.container {
-  width: 1180px;
-  text-align: center;
+header {
+  padding: 49px 0 41px;
+}
+
+.mr-nv:not(:last-child) {
+  margin-right: 114px;
+}
+
+.navbar-nav {
   margin-left: auto;
-  margin-right: auto;
-  padding: 0 15px;
+}
+
+.nav-link.header-link:hover,
+.nav-link.header-link:focus {
+  color: #FA4A0C;
+}
+
+.hero {
+  background-image: url(../img/Rectangle_48.png);
+  padding: 80px 0 162px;
+}
+
+.hero-title.h3 {
+  color: #F6F6F6;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.hero-question.h1 {
+  font-family: Poppins;
+  color: #FFF;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.exchange.h4 {
+  color: #F6F6F6;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 78px;
+}
+
+.hero-button-container {
+  text-align: center;
+}
+
+.hero-button {
+  color: #FFF;
+  border: none;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  padding: 16px 71px;
+}
+
+.order {
+  background-color: #FA4A0C;
+  -webkit-box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.2);
+          box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.2);
+}
+
+.menu {
+  background-color: transparent;
+  border: 1px solid #FFF;
+  padding: 16px 84.456px;
+  margin-left: 67px;
 }/*# sourceMappingURL=main.css.map */
